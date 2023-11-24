@@ -1,0 +1,262 @@
+.therapy-bg {
+  background-image: url(../images/bg22.jpg);
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+  padding-inline: 10rem;
+}
+
+.therapy-bg img {
+  width: 100%;
+}
+.heading {
+  font-size: 50px;
+  color: white;
+  font-weight: bold;
+  position: relative;
+  z-index: 22;
+}
+.col1 h3 {
+  font-size: 70px;
+  color: white;
+  text-align: left;
+  font-family: gureto;
+  margin: 0;
+}
+.col1 span {
+  color: #ff0203;
+  text-decoration: underline;
+}
+
+.card1 {
+  width: 100%;
+  padding-block: 30px;
+  padding-left: 30px;
+}
+.card-title {
+  padding: 2rem 30px;
+}
+.card-title h3 {
+  font-size: 50px;
+  font-weight: bolder;
+  font-family: gureto;
+}
+.niteez {
+  font-size: 180px;
+  line-height: 0.9;
+  color: #ff5c6b;
+  font-family: gureto;
+}
+.percent {
+  font-size: 80px;
+  position: relative;
+  top: -4.5rem;
+  left: -4rem;
+}
+/* .rounded-shed {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  position: absolute;
+  top: -10%;
+  left: 50%;
+  background-color: #ff506295;
+  transform: translateX(-50%);
+
+} */
+
+@media only screen and (min-width: 1024px) {
+}
+@media only screen and (min-width: 1023px) and (max-width: 1300px) {
+  .therapy-bg {
+    padding-inline: 50px;
+  }
+  .col1 {
+    display: block;
+    text-align: center;
+  }
+  .col1 h3 {
+    font-size: 60px;
+  }
+  .card1 {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .niteez {
+    font-size: 180px;
+  }
+  .card1 {
+    width: 100%;
+    padding-block: 20px;
+    padding-left: 20px;
+  }
+  .card-title {
+    padding: 10px 10px;
+  }
+  .card-title h3 {
+    font-size: 30px;
+  }
+  .percent {
+    font-size: 80px;
+    position: relative;
+    top: -60px;
+    left: -40px;
+  }
+}
+@media only screen and (min-width: 960px) and (max-width: 1023px) {
+  .therapy-bg {
+    padding-inline: 50px;
+  }
+  .col1 {
+    display: block;
+    text-align: center;
+  }
+  .col1 h3 {
+    font-size: 60px;
+  }
+  .card1 {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .niteez {
+    font-size: 180px;
+  }
+  .card1 {
+    width: 100%;
+    padding-block: 20px;
+    padding-left: 20px;
+  }
+  .card-title {
+    padding: 10px 10px;
+  }
+  .card-title h3 {
+    font-size: 30px;
+  }
+  .percent {
+    font-size: 80px;
+    position: relative;
+    top: -60px;
+    left: -40px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  .therapy-bg {
+    padding-inline: 50px;
+  }
+  .col1 {
+    display: block;
+    text-align: center;
+  }
+  .col1 h3 {
+    font-size: 60px;
+  }
+  .card1 {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .flex-reverse {
+    flex-direction: column-reverse;
+  }
+  .niteez {
+    font-size: 170px;
+  }
+  .card1 {
+    width: 100%;
+    padding-block: 20px;
+    padding-left: 20px;
+    text-align: center;
+  }
+  .card-title {
+    padding: 10px 10px;
+  }
+  .card-title h3 {
+    font-size: 30px;
+  }
+  .percent {
+    font-size: 70px;
+    position: relative;
+    top: -60px;
+    left: -20px;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .therapy-bg {
+    padding-inline: 30px;
+  }
+  .col1 {
+    display: block;
+    text-align: center;
+  }
+  .col1 h3 {
+    font-size: 40px;
+  }
+  .card1 {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .flex-reverse {
+    flex-direction: column-reverse;
+  }
+  .niteez {
+    font-size: 140px;
+  }
+  .card1 {
+    width: 100%;
+    padding-block: 20px;
+    padding-left: 20px;
+  }
+  .card-title {
+    padding: 10px 10px;
+  }
+  .card-title h3 {
+    font-size: 30px;
+  }
+  .percent {
+    font-size: 30px;
+    position: relative;
+    top: -40px;
+    left: -20px;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .therapy-bg {
+    padding-inline: 30px;
+  }
+  .col1 {
+    display: block;
+    text-align: center;
+  }
+  .col1 h3 {
+    font-size: 30px;
+  }
+  .card1 {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .flex-reverse {
+    flex-direction: column-reverse;
+  }
+  .niteez {
+    font-size: 100px;
+  }
+  .card1 {
+    width: 100%;
+    padding-block: 10px;
+    padding-left: 10px;
+  }
+  .card-title {
+    padding: 10px 10px;
+  }
+  .card-title h3 {
+    font-size: 30px;
+  }
+  .percent {
+    font-size: 30px;
+    position: relative;
+    top: -40px;
+    left: -20px;
+  }
+}

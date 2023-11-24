@@ -1,0 +1,124 @@
+.color-therapy {
+  background: url(../images/colortherapybg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 12rem;
+  padding-bottom: 3rem;
+  padding-inline: 5rem;
+}
+.color-p-img {
+  text-align: center;
+}
+.color-p-img img {
+  width: 80%;
+}
+.color-therapy h3 {
+  font-size: 4rem;
+  font-weight: bold;
+  font-family: gureto;
+}
+
+.color-therapy p {
+  font-size: 20px;
+}
+.therapy-sub-head {
+  font-size: 1.7rem;
+}
+.caution {
+  display: flex;
+  align-items: center;
+}
+.caution span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  color: red;
+}
+.caution p {
+  padding-left: 20px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+}
+@media only screen and (min-width: 960px) and (max-width: 1023px) {
+  .color-therapy {
+    padding-top: 12rem;
+    padding-bottom: 3rem;
+    padding-inline: 60px;
+  }
+  .color-col-rev {
+    flex-direction: column-reverse;
+  }
+  .color-p-img {
+    margin-bottom: 30px;
+  }
+  .color-p-img img {
+    width: 100%;
+  }
+  .color-therapy h3 {
+    font-size: 4.5rem;
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  .color-therapy {
+    padding-top: 10rem;
+    padding-bottom: 3rem;
+    padding-inline: 40px;
+  }
+  .color-col-rev {
+    flex-direction: column-reverse;
+  }
+  .color-p-img {
+    margin-bottom: 30px;
+  }
+  .color-p-img img {
+    width: 100%;
+  }
+  .color-therapy h3 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .color-therapy {
+    padding-top: 9rem;
+    padding-bottom: 3rem;
+    padding-inline: 30px;
+  }
+  .color-col-rev {
+    flex-direction: column-reverse;
+  }
+  .color-p-img {
+    margin-bottom: 30px;
+  }
+  .color-p-img img {
+    width: 100%;
+  }
+  .color-therapy h3 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .color-therapy {
+    padding-top: 8rem;
+    padding-bottom: 3rem;
+    padding-inline: 10px;
+  }
+  .color-p-img {
+    margin-bottom: 30px;
+  }
+  .color-col-rev {
+    flex-direction: column-reverse;
+  }
+  .color-p-img img {
+    width: 100%;
+  }
+  .color-therapy h3 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+}

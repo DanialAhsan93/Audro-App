@@ -1,0 +1,98 @@
+.swiper {
+  width: 100%;
+  height: 60vh;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.test-img {
+  width: 60px;
+  height: 60px;
+  margin: auto;
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.test-img img {
+  width: 100%;
+  border-radius: 50%;
+  text-align: center;
+}
+.testimonial-card {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.inner-card {
+  width: 50%;
+  padding: 3rem;
+  background-color: rgb(253, 253, 253);
+  text-align: center;
+  position: relative;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: 20px;
+}
+.inner-card span {
+  color: #fdcc0d;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+}
+@media only screen and (min-width: 960px) and (max-width: 1023px) {
+  .swiper {
+    width: 90%;
+  }
+
+  .inner-card {
+    width: 80%;
+    padding: 3rem 1rem;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  .swiper {
+    width: 90%;
+  }
+
+  .inner-card {
+    width: 80%;
+    padding: 3rem 1rem;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .swiper {
+    width: 100%;
+  }
+
+  .inner-card {
+    width: 100%;
+    padding: 3rem 1rem;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .swiper {
+    width: 100%;
+  }
+
+  .inner-card {
+    width: 100%;
+    padding: 3rem 1rem;
+  }
+}

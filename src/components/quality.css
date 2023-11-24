@@ -1,0 +1,111 @@
+.quality-img img {
+  width: 70%;
+}
+.quality-check {
+  padding-inline: 10rem;
+  padding-top: 5rem;
+  background-color: #fefbfb;
+}
+.quality-heading {
+  padding-right: 30px;
+}
+.quality-heading h3 {
+  font-size: 4rem;
+  font-weight: bold;
+  font-family: gureto;
+}
+.quality-heading p {
+  line-height: 2;
+}
+.quality-span {
+  text-decoration: underline;
+  color: red;
+}
+@media only screen and (min-width: 1024px) {
+}
+@media only screen and (min-width: 1023px) and (max-width: 1200px) {
+  .quality-check {
+    padding-inline: 5rem;
+    padding-top: 5rem;
+  }
+
+  .quality-heading h3 {
+    font-size: 50px;
+  }
+}
+@media only screen and (min-width: 960px) and (max-width: 1023px) {
+  .quality-check {
+    padding-inline: 50px;
+    padding-top: 5rem;
+  }
+
+  .quality-heading h3 {
+    font-size: 50px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  .quality-img img {
+    width: 100%;
+  }
+  .quality-check {
+    padding-inline: 50px;
+    padding-top: 5rem;
+  }
+  .quality-heading {
+    padding-right: 0px;
+  }
+  .quality-heading h3 {
+    font-size: 40px;
+  }
+  .quality-heading p {
+    line-height: 2;
+  }
+  .quality-span {
+    text-decoration: underline;
+    color: red;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .quality-img img {
+    width: 100%;
+  }
+  .quality-check {
+    padding-inline: 30px;
+    padding-top: 5rem;
+  }
+  .quality-heading {
+    padding-right: 0px;
+  }
+  .quality-heading h3 {
+    font-size: 40px;
+  }
+  .quality-heading p {
+    line-height: 2;
+  }
+  .quality-span {
+    text-decoration: underline;
+    color: red;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .quality-img img {
+    width: 100%;
+  }
+  .quality-check {
+    padding-inline: 30px;
+    padding-top: 5rem;
+  }
+  .quality-heading {
+    padding-right: 0px;
+  }
+  .quality-heading h3 {
+    font-size: 40px;
+  }
+  .quality-heading p {
+    line-height: 2;
+  }
+  .quality-span {
+    text-decoration: underline;
+    color: red;
+  }
+}

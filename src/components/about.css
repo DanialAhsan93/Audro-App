@@ -1,0 +1,214 @@
+body {
+  background-color: #fde5e8;
+}
+.about-page {
+  background: url(../images/FAQ_s_Banne_Background.jpg);
+
+  background-position: center;
+  background-size: cover;
+  padding: 16rem 5rem 0px 5rem;
+}
+.contact-col-1 {
+  padding-left: 60px;
+}
+
+.about-headings h3 {
+  line-height: 1.2;
+  font-weight: bold;
+  font-family: gureto;
+}
+.about-headings {
+  margin-bottom: 30px;
+}
+.about-headings a {
+  color: #ff5666;
+}
+.about-sec-2 {
+  background: url(../images/Beauty-_-Beyond.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90vh;
+}
+.positioned-sec {
+  width: 80%;
+  border-radius: 30px;
+  transform: translateY(-100px);
+}
+.about-sec-3 {
+  padding-inline: 7rem;
+  padding-bottom: 3rem;
+}
+.about-sec-3 img {
+  width: 70%;
+}
+.sevenone {
+  color: black;
+}
+.sevenone h5 {
+  text-align: left;
+  letter-spacing: normal;
+  font-family: gureto;
+}
+.sevenone span {
+  color: #ff5666;
+  text-decoration: underline;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+}
+@media only screen and (min-width: 960px) and (max-width: 1023px) {
+  .about-page {
+    padding: 5rem;
+  }
+  /* .about-page .row {
+        flex-direction: column-reverse;
+      } */
+  .about-page h3 {
+    font-size: 4rem;
+  }
+  .positioned-sec h3 {
+    font-size: 4rem;
+  }
+  .about-sevenone h5 {
+    font-size: 4rem;
+  }
+  .contact-col-1 {
+    padding-left: 0px;
+    padding-inline: 5rem;
+  }
+  .about-sec-2 {
+    height: 90vh;
+  }
+  .positioned-sec {
+    width: 100%;
+  }
+  .about-sec-3 {
+    padding-inline: 5rem;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  .about-sec-3 img {
+    width: 100%;
+  }
+  .sevenone {
+    margin-top: 20px;
+  }
+  .transperentmask img {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  .about-page {
+    padding: 5rem;
+  }
+  .about-page .row {
+    flex-direction: column-reverse;
+  }
+  .about-page h3 {
+    font-size: 4rem;
+  }
+  .positioned-sec h3 {
+    font-size: 4rem;
+  }
+  .about-sevenone h5 {
+    font-size: 4rem;
+  }
+  .contact-col-1 {
+    padding-left: 0px;
+    padding-inline: 5rem;
+  }
+  .about-sec-2 {
+    height: 90vh;
+  }
+  .positioned-sec {
+    width: 100%;
+  }
+  .about-sec-3 {
+    padding-inline: 5rem;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  .about-sec-3 img {
+    width: 100%;
+  }
+  .sevenone {
+    margin-top: 20px;
+  }
+  .transperentmask img {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .about-page {
+    padding: 5rem 30px;
+  }
+  .about-page .row {
+    flex-direction: column-reverse;
+  }
+  .about-page h3 {
+    font-size: 3rem;
+  }
+  .positioned-sec h3 {
+    font-size: 3rem;
+  }
+  .about-sevenone h5 {
+    font-size: 3rem;
+  }
+  .contact-col-1 {
+    padding-left: 0px;
+    padding-inline: 30px;
+  }
+  .about-sec-2 {
+    height: 90vh;
+  }
+  .positioned-sec {
+    width: 100%;
+  }
+  .about-sec-3 {
+    padding-inline: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  .about-sec-3 img {
+    width: 100%;
+  }
+  .sevenone {
+    margin-top: 20px;
+  }
+  .transperentmask img {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .about-page {
+    padding: 5rem 30px;
+  }
+  .about-page .row {
+    flex-direction: column-reverse;
+  }
+  .contact-col-1 {
+    padding-left: 0px;
+    padding-inline: 30px;
+  }
+  .about-sec-2 {
+    height: 90vh;
+  }
+  .positioned-sec {
+    width: 100%;
+  }
+  .about-sec-3 {
+    padding-inline: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  .about-sec-3 img {
+    width: 100%;
+  }
+  .sevenone {
+    margin-top: 20px;
+  }
+  .transperentmask img {
+    width: 100%;
+  }
+}

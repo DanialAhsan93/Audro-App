@@ -1,0 +1,81 @@
+.benifit-cols {
+  width: 30%;
+  padding: 50px;
+  text-align: center;
+  border-radius: 30px;
+  background-color: white;
+  margin: 10px;
+  box-shadow: #ffe6e5 5px 5px, #ffe6e5 10px 10px, #ffe6e5 15px 15px,
+    #ffe6e5 20px 20px, #ffe6e5 25px 25px;
+}
+.benifit-section {
+  padding: 5rem 3rem;
+}
+.benifit-section h5 {
+  font-size: 2rem;
+}
+.aditional-div h5 {
+  font-size: 4rem;
+  text-align: left;
+  font-family: gureto;
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+}
+@media only screen and (min-width: 960px) and (max-width: 1023px) {
+  .benifit-section {
+    padding: 5rem 20px;
+    width: 100%;
+  }
+  .benifit-cols {
+    width: 45%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  .benifit-cols {
+    width: 100%;
+  }
+  .benifit-section {
+    padding: 5rem 50px;
+  }
+  .benifit-section h5 {
+    font-size: 2rem;
+  }
+  .aditional-div h5 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .benifit-cols {
+    width: 100%;
+    margin: 0;
+    margin-block: 10px;
+  }
+  .benifit-section {
+    padding: 5rem 30px;
+  }
+  .benifit-section h5 {
+    font-size: 2rem;
+  }
+  .aditional-div h5 {
+    font-size: 2rem;
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .benifit-cols {
+    width: 100%;
+    margin: 0;
+    margin-block: 10px;
+  }
+  .benifit-section {
+    padding: 5rem 30px;
+  }
+  .benifit-section h5 {
+    font-size: 2rem;
+  }
+  .aditional-div h5 {
+    font-size: 2rem;
+    text-align: center;
+  }
+}

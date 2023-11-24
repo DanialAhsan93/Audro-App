@@ -1,0 +1,19 @@
+.green-light-bg {
+  background-color: #caffcd;
+  width: 100%;
+  padding-block: 8rem;
+}
+.green-benifit-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.green-benifit-div > p {
+  padding: 30px;
+  background-color: white;
+  border-radius: 20px;
+  margin-inline: 10px;
+}
+.green-block > div {
+  margin-block: 20px;
+}

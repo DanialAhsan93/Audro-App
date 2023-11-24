@@ -1,0 +1,239 @@
+.contact-bg {
+  background-image: url(../images/FAQ_s_Banne_Background.jpg);
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10rem 5rem;
+}
+.contact-bg .row {
+  padding-top: 40px;
+}
+.forms input {
+  padding: 10px 0px;
+  display: block;
+  width: 100%;
+  margin-block: 10px;
+  border: none;
+  border-bottom: 2px solid red;
+}
+.contact-btn a {
+  background: white !important;
+  color: #dc3545;
+  box-shadow: none;
+  border: 1px solid #dc3545;
+  margin-top: 30px;
+  padding: 15px 40px;
+  font-weight: bold;
+}
+.contact-btn a::after {
+  background: #dc3545 !important;
+}
+.forms input,
+textarea:focus {
+  outline: none;
+}
+.forms textarea {
+  padding: 10px 0px;
+  display: block;
+  width: 100%;
+  margin-block: 10px;
+  border: none;
+  border-bottom: 2px solid red;
+}
+.forms {
+  width: 70%;
+  margin-left: 30px;
+  border-radius: 40px;
+  background-color: white;
+  padding: 30px;
+  box-shadow: #ffe6e53d 0px 54px 55px, #ffe6e53d 0px -12px 30px,
+    #ffe6e53d 0px 4px 6px, #ffe6e53d 0px 12px 13px, #ffe6e53d 0px -3px 5px;
+}
+.contact-heading {
+  width: 70%;
+  margin-left: auto;
+  padding-right: 30px;
+}
+.contact-heading h3 {
+  font-size: 5rem;
+  font-weight: bold;
+  font-family: gureto;
+}
+.input-grp {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.check-terms {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.check-terms .check {
+  height: 20px;
+  width: 20px;
+}
+.check-terms label {
+  margin-left: 15px;
+}
+@media only screen and (min-width: 1024px) {
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+}
+@media only screen and (min-width: 960px) and (max-width: 1023px) {
+  .contact-bg {
+    padding: 7rem 3rem;
+  }
+  .contact-bg .row {
+    padding-top: 40px;
+  }
+  .forms {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .contact-heading {
+    width: 100%;
+    padding-right: 0px;
+    margin-left: 0;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .contact-heading h3 {
+    font-size: 3rem;
+  }
+  .input-grp {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .check-terms {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+  }
+  .check-terms .check {
+    height: 20px;
+    width: 20px;
+  }
+  .check-terms label {
+    margin-left: 15px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  .contact-bg {
+    padding: 7rem 3rem;
+  }
+  .contact-bg .row {
+    padding-top: 40px;
+  }
+  .forms {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .contact-heading {
+    width: 100%;
+    padding-right: 0px;
+    margin-left: 0;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .contact-heading h3 {
+    font-size: 3rem;
+  }
+  .input-grp {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .check-terms {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+  }
+  .check-terms .check {
+    height: 20px;
+    width: 20px;
+  }
+  .check-terms label {
+    margin-left: 15px;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .contact-bg {
+    padding: 7rem 10px;
+  }
+  .contact-bg .row {
+    padding-top: 40px;
+  }
+  .forms {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .contact-heading {
+    width: 100%;
+    padding-right: 0px;
+    margin-left: 0;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .contact-heading h3 {
+    font-size: 3rem;
+  }
+  .input-grp {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .check-terms {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+  }
+  .check-terms .check {
+    height: 20px;
+    width: 20px;
+  }
+  .check-terms label {
+    margin-left: 15px;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .contact-bg {
+    padding: 7rem 10px;
+  }
+  .contact-bg .row {
+    padding-top: 40px;
+  }
+  .forms {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .contact-heading {
+    width: 100%;
+    padding-right: 0px;
+    margin-left: 0;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .contact-heading h3 {
+    font-size: 3rem;
+  }
+  .input-grp {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .check-terms {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+  }
+  .check-terms .check {
+    height: 20px;
+    width: 20px;
+  }
+  .check-terms label {
+    margin-left: 15px;
+  }
+}

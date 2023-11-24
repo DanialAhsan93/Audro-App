@@ -1,0 +1,164 @@
+.care-p {
+  background-image: url(../images/Background_1.jpg);
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  padding-inline: 5rem;
+}
+.care-p h5 {
+  font-size: 70px;
+  font-family: gureto;
+}
+.care-p p {
+  color: #ff0000;
+}
+.colored-div img {
+  width: 100%;
+}
+
+.margin-top {
+  align-items: center;
+  text-align: justify;
+  padding: 5rem 10rem 5rem 10rem;
+}
+.shadow1 {
+  color: #ff0000;
+  text-decoration: underline;
+}
+.margin-top p {
+  color: #ff0000;
+}
+.margin-top h3 {
+  font-size: 60px;
+  font-family: gureto;
+}
+
+.with-in a {
+  color: #ff0000;
+}
+.colored-div img {
+  width: 100%;
+}
+.box-shadow {
+  width: 80%;
+  margin: auto;
+}
+
+@media only screen and (min-width: 1024px) {
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+}
+@media only screen and (min-width: 960px) and (max-width: 1023px) {
+  .margin-top {
+    margin-top: 100px;
+  }
+  .box-shadow {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 960px) {
+  .care-p {
+    padding-inline: 50px;
+  }
+  .care-p h5 {
+    font-size: 60px;
+    font-weight: bolder;
+  }
+  .care-p p {
+    color: #ff0000;
+  }
+
+  .with-in {
+    font-size: 40px;
+  }
+
+  .colored-div {
+    width: 100%;
+    height: inherit;
+  }
+  .colored-div img {
+    width: 100%;
+  }
+
+  .margin-top {
+    padding: 20px 50px 70px 50px;
+  }
+  .margin-top h3 {
+    font-size: 60px;
+    font-weight: bold;
+  }
+  .box-shadow {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+  .care-p {
+    padding-inline: 30px;
+  }
+  .care-p h5 {
+    font-size: 40px;
+    font-weight: bolder;
+  }
+  .care-p p {
+    color: #ff0000;
+  }
+
+  .with-in {
+    font-size: 40px;
+  }
+
+  .colored-div {
+    width: 100%;
+    height: inherit;
+  }
+  .colored-div img {
+    width: 100%;
+  }
+
+  .margin-top {
+    padding: 20px 30px;
+    flex-direction: column-reverse;
+  }
+  .margin-top h3 {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .box-shadow {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .care-p {
+    padding-inline: 30px;
+  }
+  .care-p h5 {
+    font-size: 30px;
+    font-weight: bolder;
+  }
+  .care-p p {
+    color: #ff0000;
+  }
+
+  .with-in {
+    font-size: 40px;
+  }
+
+  .colored-div {
+    width: 100%;
+    height: inherit;
+  }
+  .colored-div img {
+    width: 100%;
+  }
+  .margin-top {
+    padding: 20px 30px;
+    flex-direction: column-reverse;
+  }
+  .margin-top h3 {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .box-shadow {
+    width: 100%;
+  }
+}

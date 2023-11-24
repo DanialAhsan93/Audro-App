@@ -1,0 +1,118 @@
+.parent-div {
+  width: 100%;
+}
+.color-class-div {
+  position: absolute;
+  padding: 5rem 1rem;
+  width: 20%;
+  background-color: white;
+  border-radius: 30px;
+  display: flex;
+  transform: translateY(20%);
+}
+.color-strip {
+  width: 40px;
+  border-radius: 20px;
+  background: linear-gradient(
+    #ff0000,
+    #f11808,
+    #fc942b,
+    #f1e103,
+    #21c202,
+    #10f9e2,
+    #000cae,
+    #a114ab
+  );
+}
+.color-pallet-parent {
+  width: 100%;
+}
+.color-pallet-parent a {
+  text-decoration: none;
+  color: black;
+}
+.child-divs {
+  display: flex;
+  margin-bottom: 10px;
+  align-items: center;
+  margin-left: 10px;
+  padding: 0px 10px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.child-divs:hover {
+  background-color: rgba(128, 128, 128, 0.363);
+}
+.child-divs span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+.child-divs p {
+  margin-top: 15px;
+  padding-left: 10px;
+}
+@media only screen and (min-width: 1023px) and (max-width: 1300px) {
+  .child-divs {
+    padding: 0px 5px;
+  }
+
+  .child-divs p {
+    font-size: 10px;
+  }
+}
+@media only screen and (min-width: 960px) and (max-width: 1023px) {
+  .child-divs {
+    padding: 0px 5px;
+  }
+
+  .child-divs p {
+    font-size: 10px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  .color-pallet-parent {
+    display: none;
+  }
+  .color-class-div {
+    width: 20px;
+    padding: 0px;
+    height: 60vh;
+    margin-left: 10px;
+  }
+  .color-strip {
+    width: 20px;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .color-pallet-parent {
+    display: none;
+  }
+  .color-class-div {
+    width: 20px;
+    padding: 0px;
+    height: 60vh;
+    margin-left: 10px;
+  }
+  .color-strip {
+    width: 20px;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .color-pallet-parent {
+    display: none;
+  }
+  .color-class-div {
+    width: 20px;
+    padding: 0px;
+    height: 60vh;
+    margin-left: 10px;
+  }
+  .color-strip {
+    width: 20px;
+  }
+}

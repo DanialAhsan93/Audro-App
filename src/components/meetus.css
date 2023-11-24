@@ -1,0 +1,323 @@
+.meetus-bg {
+  background-color: #fffbfc;
+}
+.meetus-bg {
+  padding: 5rem 10rem;
+}
+.meet-heading p,
+h5 {
+  text-align: center;
+}
+.meet-heading p {
+  color: #ff4141;
+}
+.meet-heading h5 {
+  font-size: 4rem;
+  font-weight: bold;
+  font-family: gureto;
+}
+.align-item {
+  width: 33%;
+}
+.card-meet-1 {
+  border-radius: 50px;
+  padding: 0px 30px;
+  box-shadow: #ffe6e5 5px 5px, #ffe6e5 10px 10px, #ffe6e5 15px 15px,
+    #ffe6e5 20px 20px, #ffe6e5 25px 25px;
+  background-color: white;
+  z-index: 2;
+}
+.card-t {
+  padding-block: 50px;
+}
+.card-t h3 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-family: gureto;
+}
+.meet-icons {
+  display: flex;
+  align-items: center;
+  margin-block: 10px;
+}
+.meet-icons a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  text-decoration: none;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  /* box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px; */
+  background: linear-gradient(88deg, #ff9aad, #ff4452);
+  box-shadow: 1px 7px 12px #ff445252;
+
+  border-radius: 15px;
+}
+.card2 {
+  padding-top: 50px;
+  height: 435px;
+}
+.meet-icons p {
+  margin-left: 20px;
+  margin-block: 10px;
+}
+
+.card2-t h3 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.card2-t .line-h {
+  padding-top: 40px;
+}
+.line-adres {
+  padding-top: 40px;
+  margin-bottom: 0;
+}
+.addres-h {
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (min-width: 1023px) and (max-width: 1380px) {
+  .meetus-bg {
+    padding: 5rem 3rem;
+  }
+  .card2 {
+    padding-block: 50px;
+    height: 500px;
+  }
+  .align-item {
+    width: 33%;
+  }
+
+  /* .meetus-bg {
+    padding: 5rem 4rem;
+  }
+  .meet-heading p,
+  h5 {
+    text-align: center;
+  }
+  .meet-heading p {
+    color: #ff4141;
+  }
+  .meet-heading h5 {
+    font-size: 4rem;
+  }
+  .align-item {
+    width: 50%;
+  }
+
+  .card-t {
+    padding-block: 50px;
+  }
+  .card-t h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .card2 {
+    padding-block: 50px;
+    height: inherit;
+   
+  }
+  .meet-icons p {
+    margin-left: 15px;
+    margin-block: 10px;
+  }
+
+  .card2-t h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  } */
+}
+@media only screen and (min-width: 960px) and (max-width: 1023px) {
+  .meetus-bg {
+    padding: 5rem 3rem;
+  }
+  .meet-heading p,
+  h5 {
+    text-align: center;
+  }
+  .meet-heading p {
+    color: #ff4141;
+  }
+  .align-item {
+    width: 100%;
+  }
+
+  .card-t {
+    padding-block: 50px;
+  }
+  .card-t h3 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .card2 {
+    padding-block: 50px;
+    height: inherit;
+    margin-block: 20px;
+  }
+  .meet-icons p {
+    margin-left: 20px;
+    margin-block: 10px;
+  }
+
+  .card2-t h3 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  .meetus-bg {
+    padding: 5rem 30px;
+  }
+  .meet-heading p,
+  h5 {
+    text-align: center;
+  }
+  .meet-heading p {
+    color: #ff4141;
+  }
+  .meet-heading h5 {
+    font-size: 4rem;
+  }
+  .align-item {
+    width: 100%;
+  }
+
+  .card-t {
+    padding-block: 50px;
+  }
+  .card-t h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .card2 {
+    padding-block: 50px;
+    height: inherit;
+    margin-block: 20px;
+  }
+  .meet-icons p {
+    margin-left: 15px;
+    margin-block: 10px;
+  }
+
+  .card2-t h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .meetus-bg {
+    padding: 5rem 10px;
+  }
+  .meet-heading p,
+  h5 {
+    text-align: center;
+  }
+  .meet-heading p {
+    color: #ff4141;
+  }
+  .meet-heading h5 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  .align-item {
+    width: 100%;
+  }
+
+  .card-t {
+    padding-block: 50px;
+  }
+  .card-t h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  .meet-icons {
+    display: flex;
+    align-items: center;
+    margin-block: 10px;
+  }
+
+  .card2 {
+    padding-block: 50px;
+    height: inherit;
+    margin-block: 20px;
+  }
+  .meet-icons p {
+    margin-left: 10px;
+    margin-block: 10px;
+  }
+
+  .card2-t h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .meetus-bg {
+    padding: 5rem 10px;
+  }
+  .meet-heading p,
+  h5 {
+    text-align: center;
+  }
+  .meet-heading p {
+    color: #ff4141;
+  }
+  .meet-heading h5 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  .align-item {
+    width: 100%;
+  }
+
+  .card-t {
+    padding-block: 50px;
+  }
+  .card-t h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  .meet-icons {
+    display: flex;
+    align-items: center;
+    margin-block: 10px;
+  }
+
+  .card2 {
+    padding-block: 50px;
+    height: inherit;
+    margin-block: 20px;
+  }
+  .meet-icons p {
+    margin-left: 10px;
+    margin-block: 10px;
+  }
+
+  .card2-t h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+}

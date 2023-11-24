@@ -1,0 +1,32 @@
+.card-1 {
+  text-align: center;
+  padding: 30px;
+  margin: 20px;
+  width: 250px;
+}
+.card-1 span {
+  font-size: 30px;
+}
+.test {
+  color: #ff5d6c;
+}
+.light-t {
+  font-size: 50px;
+  font-weight: bold;
+}
+.light-t span {
+  color: #ff1616;
+  text-decoration: underline;
+}
+
+.main-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+/* .carosel {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+} */

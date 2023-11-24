@@ -1,0 +1,122 @@
+.all-p {
+  position: relative;
+  padding: 3rem 10rem 3rem 10rem;
+}
+.all-op h5 {
+  font-size: 1.6rem;
+  font-weight: bolder;
+  font-family: gureto;
+}
+
+.seprate {
+  padding-inline: 5rem;
+  margin-block: 50px;
+  padding-top: 90px;
+}
+/* .all-p::after {
+  content: "";
+  width: 80%;
+  height: 100%;
+  border: 2px solid rgb(255, 0, 0);
+  position: absolute;
+  top: 0;
+  left: 10px;
+  border-radius: 20px;
+  border-bottom-right-radius: 50%;
+} */
+.all-p-feature {
+  display: flex;
+}
+.all-p-f-icon span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  color: #ff4654;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+.all-p-btn:hover {
+  border: none !important;
+  box-sizing: border-box;
+}
+
+@media only screen and (min-width: 1024px) {
+}
+@media only screen and (min-width: 1023px) and (max-width: 1300px) {
+  .all-p {
+    padding: 0rem;
+    margin-top: 40px;
+  }
+  .all-op h5 {
+    font-size: 1.6rem;
+    font-weight: bolder;
+  }
+
+  .seprate {
+    padding-inline: 50px;
+    padding-top: 0px;
+  }
+}
+@media only screen and (min-width: 960px) and (max-width: 1023px) {
+  .all-p {
+    padding: 0rem;
+    margin-top: 40px;
+  }
+  .all-op h5 {
+    font-size: 1.6rem;
+    font-weight: bolder;
+  }
+
+  .seprate {
+    padding-inline: 50px;
+    padding-top: 0px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  .all-p {
+    padding: 0rem;
+    margin-top: 40px;
+  }
+  .all-op h5 {
+    font-size: 25px;
+    font-weight: bolder;
+  }
+
+  .seprate {
+    padding-inline: 50px;
+    padding-top: 0px;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .all-p {
+    padding: 0rem;
+    margin-top: 40px;
+  }
+  .all-op h5 {
+    font-size: 20px;
+    font-weight: bolder;
+  }
+
+  .seprate {
+    padding-inline: 30px;
+    padding-top: 0px;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .all-p {
+    padding: 0rem;
+    margin-top: 40px;
+  }
+  .all-op h5 {
+    font-size: 20px;
+    font-weight: bolder;
+  }
+
+  .seprate {
+    padding-inline: 30px;
+    padding-top: 0px;
+  }
+}

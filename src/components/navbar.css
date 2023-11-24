@@ -1,0 +1,134 @@
+.icons a {
+  color: #f37e89;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-icons .shopyfy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: white;
+  color: #ff0101;
+  font-size: 20px;
+  box-shadow: 2px 17px 20px rgb(255 68 82 / 80%);
+  border-radius: 50%;
+  cursor: pointer;
+  text-decoration: none;
+}
+.login-btn {
+  color: #ff0101;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ffffff61;
+  cursor: pointer;
+}
+ul li :hover {
+  color: #ff0101 !important;
+}
+.header-nav li a {
+  font-weight: bold;
+  font-family: genora;
+}
+
+.container-f {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 6;
+  /* background-color: #fdb6bb8a; */
+}
+.active {
+  color: #ff0101 !important;
+}
+.active-bar {
+  /* background: linear-gradient(
+    53deg,
+    rgba(255, 82, 97, 1) 0%,
+    rgba(252, 202, 210, 1) 50%,
+    rgba(255, 82, 97, 1) 100%
+  ); */
+  background: linear-gradient(88deg, #ff9aad, #ff4452);
+  box-shadow: 1px 7px 12px #ff445252;
+  z-index: 999;
+  color: white;
+}
+/* ul li {
+  cursor: pointer;
+} */
+@media only screen and (min-width: 1024px) {
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+}
+@media only screen and (min-width: 960px) and (max-width: 1023px) {
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  .active {
+    position: inherit;
+    background: none;
+  }
+  .nav-icons {
+    display: none !important;
+  }
+  .header-nav {
+    background-color: black !important;
+    width: 100% !important;
+    position: absolute;
+
+    right: 0;
+  }
+  .header-nav li a {
+    color: rgb(255, 255, 255);
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .active {
+    position: inherit;
+    background: none;
+  }
+  .nav-icons {
+    display: none !important;
+  }
+  .header-nav {
+    background-color: black !important;
+    width: 100% !important;
+    position: absolute;
+
+    right: 0;
+  }
+  .header-nav li a {
+    color: rgb(255, 255, 255);
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .active {
+    position: inherit;
+    background: none;
+  }
+  .nav-icons {
+    display: none !important;
+  }
+  .header-nav {
+    background-color: black !important;
+    width: 100% !important;
+    position: absolute;
+
+    right: 0;
+  }
+  .header-nav li a {
+    color: rgb(255, 255, 255);
+  }
+}

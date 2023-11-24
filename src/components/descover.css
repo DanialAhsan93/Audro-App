@@ -1,0 +1,120 @@
+.bg-red {
+  background: linear-gradient(to left, #ff4553, #ff455574);
+  padding-inline: 10rem;
+}
+.descover-img {
+  width: 60%;
+  margin: auto;
+  position: relative;
+  z-index: 2;
+}
+.descover-img img {
+  width: 100%;
+  border-radius: 20px;
+  border-bottom-left-radius: 25%;
+}
+.descover-img::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #ff4553;
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  z-index: -1;
+  border-radius: 20px;
+  border-bottom-left-radius: 25%;
+}
+.universal-btn2 a {
+  display: inline-block;
+  background-color: white;
+  padding: 20px 40px;
+  border-radius: 20px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  position: relative;
+  border-radius: 50px;
+  z-index: 2;
+  position: relative;
+  overflow: hidden;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  transition: all 0.6s;
+}
+.universal-btn2 a:hover {
+  color: rgb(255, 255, 255);
+  background: linear-gradient(to right, rgba(255, 0, 0, 0.436) 20%, red);
+}
+.universal-btn2 a::after {
+  content: "";
+  width: 40%;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -35px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #ff0000;
+  transition: all 0.6s;
+}
+.universal-btn2 a:hover::after {
+  background-color: white;
+}
+.sevenone1 {
+  color: white;
+}
+.sevenone1 h5 {
+  font-size: 5rem;
+  word-spacing: normal;
+  font-family: gureto;
+}
+.p-1 {
+  color: #ff0000;
+  margin-bottom: -10px;
+  font-weight: bold;
+}
+@media only screen and (min-width: 1024px) {
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+}
+@media only screen and (min-width: 960px) and (max-width: 1023px) {
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  .bg-red {
+    padding-inline: 40px;
+  }
+
+  .sevenone1 {
+    color: white;
+  }
+  .sevenone1 h5 {
+    font-size: 50px;
+    word-spacing: normal;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .bg-red {
+    padding-inline: 40px;
+  }
+
+  .sevenone1 {
+    color: white;
+  }
+  .sevenone1 h5 {
+    font-size: 50px;
+    word-spacing: normal;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .bg-red {
+    padding-inline: 30px;
+  }
+
+  .sevenone1 {
+    color: white;
+  }
+  .sevenone1 h5 {
+    font-size: 40px;
+    word-spacing: normal;
+  }
+}
